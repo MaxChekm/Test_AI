@@ -1,0 +1,4 @@
+-- Запрос 30
+-- SELECT указан выводимый столбец. Ключевое слово DISTINCT указано в нем потому, что названия кафедр в...
+
+SELECT указан выводимый столбец. Ключевое слово DISTINCT указано в нем потому, что названия кафедр в соединенной таблице могут повторяться. 123 Запрос 35. Вывести фамилии ассистентов факультета математики и информатики. SELECT TEACHER.NAME_TEACHER AS ‘Ассистенты ф-та математики и информатики’ FROM FACULTET, KAFEDRA, TEACHER WHERE FACULTET.Kod_faculteta = KAFEDRA.Kod_faculteta AND KAFEDRA.Kod_kafedru = TEACHER.Kod_kafedru AND FACULTET.Name_faculteta ='Математики и информатики' AND TEACHER.DOLGNOST = 'ассистент';

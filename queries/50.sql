@@ -1,0 +1,4 @@
+-- Запрос 50
+-- SELECT UPPER(NAME_TEACHER) AS "Все прописные” FROM TEACHER;...
+
+SELECT UPPER(NAME_TEACHER) AS "Все прописные” FROM TEACHER;

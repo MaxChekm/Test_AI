@@ -1,0 +1,4 @@
+-- Запрос 47
+-- SELECT SUM(Salary) FROM TEACHER WHERE LOWER(DOLGNOST) = 'ассистент';...
+
+SELECT SUM(Salary) FROM TEACHER WHERE LOWER(DOLGNOST) = 'ассистент';
