@@ -1,1 +1,4 @@
-
+```
+# SQL query backups/dumps
+sql_queries/*.sql
+```
